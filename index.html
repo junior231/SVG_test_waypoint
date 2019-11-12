@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- link in thwe waypoint library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
+    <title>SVG as objects</title>
+</head>
+<body>
+    <!-- <img src="images/bottleGraphic.svg" alt="beer bottle"> -->
+    <div class="svg-wrapper">
+    <object data="images/bottleGraphic.svg" class="svg-graphic" id="beer-glass" type="image/svg+xml"></object>
+    </div>
+
+    <div class="svg-wrapper">
+        <object data="images/beerBarrels.svg" class="svg-graphic" id="beer-barrel" type="image/svg+xml"></object>
+    </div>
+
+    <div class="svg-wrapper">
+        <object data="images/qualityBeer.svg" class="svg-graphic" id="beer" type="image/svg+xml"></object>
+    </div>
+    <script src="js/main.js"></script>  
+</body>
+</html>

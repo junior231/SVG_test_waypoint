@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+img {
+    width: 100%;
+}
+
+.svg-graphic {
+    height: 200px;
+}
+
+.svg-wrapper {
+    min-height: 75vh; padding: 20px; border: thin dashed white;
+}
